@@ -1,0 +1,114 @@
+objective: ackley
+
+Method: ECP
+Avg of best max until 1.00: -14.35987, std: 3.23686
+Avg of best max until 2.00: -12.62985, std: 3.21342
+Avg of best max until 3.00: -12.45670, std: 3.09327
+Avg of best max until 4.00: -12.39923, std: 3.03650
+Avg of best max until 5.00: -12.26755, std: 2.95457
+Avg of best max until 6.00: -10.94439, std: 3.86781
+Avg of best max until 7.00: -8.48352, std: 3.97668
+Avg of best max until 8.00: -6.37561, std: 3.15274
+Avg of best max until 9.00: -5.56871, std: 2.57437
+Avg of best max until 10.00: -4.81662, std: 1.94107
+Avg of best max until 11.00: -4.44091, std: 1.70882
+Avg of best max until 12.00: -4.08981, std: 1.57234
+Avg of best max until 13.00: -3.79856, std: 1.37148
+Avg of best max until 14.00: -3.57927, std: 1.18766
+Avg of best max until 15.00: -3.37074, std: 1.13035
+Avg of best max until 16.00: -3.25274, std: 1.12886
+Avg of best max until 17.00: -3.11486, std: 1.11998
+Avg of best max until 18.00: -3.00148, std: 1.08987
+Avg of best max until 19.00: -2.88603, std: 1.12151
+Avg of best max until 20.00: -2.70424, std: 1.12151
+Avg of best max until 21.00: -2.61370, std: 1.10721
+Avg of best max until 22.00: -2.53921, std: 1.04559
+Avg of best max until 23.00: -2.44430, std: 1.02716
+Avg of best max until 24.00: -2.36276, std: 0.99922
+Avg of best max until 25.00: -2.25193, std: 1.00696
+Avg of best max until 26.00: -2.17944, std: 1.02740
+Avg of best max until 27.00: -2.14251, std: 0.99434
+Avg of best max until 28.00: -2.04476, std: 0.94923
+Avg of best max until 29.00: -1.98924, std: 0.90125
+Avg of best max until 30.00: -1.89942, std: 0.89952
+Avg of best max until 31.00: -1.81636, std: 0.90110
+Avg of best max until 32.00: -1.78339, std: 0.91058
+Avg of best max until 33.00: -1.74683, std: 0.91423
+Avg of best max until 34.00: -1.67458, std: 0.90303
+Avg of best max until 35.00: -1.64487, std: 0.88606
+Avg of best max until 36.00: -1.62809, std: 0.87754
+Avg of best max until 37.00: -1.62255, std: 0.88456
+Avg of best max until 38.00: -1.60200, std: 0.87778
+Avg of best max until 39.00: -1.59050, std: 0.87523
+Avg of best max until 40.00: -1.58554, std: 0.86713
+Avg of best max until 41.00: -1.56225, std: 0.85981
+Avg of best max until 42.00: -1.55084, std: 0.85128
+Avg of best max until 43.00: -1.53739, std: 0.84341
+Avg of best max until 44.00: -1.52504, std: 0.83148
+Avg of best max until 45.00: -1.50454, std: 0.82147
+Avg of best max until 46.00: -1.46031, std: 0.82629
+Avg of best max until 47.00: -1.45233, std: 0.83171
+Avg of best max until 48.00: -1.39389, std: 0.79946
+Avg of best max until 49.00: -1.37987, std: 0.80291
+Avg of best max until 50.00: -1.37987, std: 0.80291
+Avg of best max until 50.00: -1.38 (0.80)
+Avg number of final function evaluations: 50.00
+Avg best maximum: -1.38 (0.80)
+
+objective: camel
+
+Method: ECP
+Avg of best max until 1.00: -1.10743, std: 1.17971
+Avg of best max until 2.00: -0.55744, std: 0.95711
+Avg of best max until 3.00: -0.43118, std: 0.87924
+Avg of best max until 4.00: -0.12185, std: 0.67060
+Avg of best max until 5.00: 0.19199, std: 0.58876
+Avg of best max until 6.00: 0.37529, std: 0.47219
+Avg of best max until 7.00: 0.55987, std: 0.40516
+Avg of best max until 8.00: 0.65402, std: 0.36623
+Avg of best max until 9.00: 0.74966, std: 0.29503
+Avg of best max until 10.00: 0.79958, std: 0.25369
+Avg of best max until 11.00: 0.83822, std: 0.22947
+Avg of best max until 12.00: 0.86988, std: 0.21767
+Avg of best max until 13.00: 0.90138, std: 0.16127
+Avg of best max until 14.00: 0.91772, std: 0.15503
+Avg of best max until 15.00: 0.93921, std: 0.12500
+Avg of best max until 16.00: 0.94788, std: 0.11229
+Avg of best max until 17.00: 0.96148, std: 0.09232
+Avg of best max until 18.00: 0.97279, std: 0.05813
+Avg of best max until 19.00: 0.97672, std: 0.05763
+Avg of best max until 20.00: 0.98176, std: 0.04767
+Avg of best max until 21.00: 0.98714, std: 0.04215
+Avg of best max until 22.00: 0.99145, std: 0.04140
+Avg of best max until 23.00: 0.99397, std: 0.03846
+Avg of best max until 24.00: 1.00061, std: 0.03521
+Avg of best max until 25.00: 1.00342, std: 0.02957
+Avg of best max until 26.00: 1.00478, std: 0.02917
+Avg of best max until 27.00: 1.00699, std: 0.02715
+Avg of best max until 28.00: 1.00758, std: 0.02713
+Avg of best max until 29.00: 1.01033, std: 0.02168
+Avg of best max until 30.00: 1.01168, std: 0.02027
+Avg of best max until 31.00: 1.01183, std: 0.02025
+Avg of best max until 32.00: 1.01305, std: 0.01992
+Avg of best max until 33.00: 1.01348, std: 0.01990
+Avg of best max until 34.00: 1.01421, std: 0.01980
+Avg of best max until 35.00: 1.01568, std: 0.01740
+Avg of best max until 36.00: 1.01649, std: 0.01729
+Avg of best max until 37.00: 1.01718, std: 0.01735
+Avg of best max until 38.00: 1.01787, std: 0.01599
+Avg of best max until 39.00: 1.01796, std: 0.01602
+Avg of best max until 40.00: 1.01868, std: 0.01593
+Avg of best max until 41.00: 1.02030, std: 0.01424
+Avg of best max until 42.00: 1.02080, std: 0.01413
+Avg of best max until 43.00: 1.02210, std: 0.01237
+Avg of best max until 44.00: 1.02236, std: 0.01235
+Avg of best max until 45.00: 1.02273, std: 0.01219
+Avg of best max until 46.00: 1.02283, std: 0.01201
+Avg of best max until 47.00: 1.02304, std: 0.01179
+Avg of best max until 48.00: 1.02343, std: 0.01143
+Avg of best max until 49.00: 1.02347, std: 0.01142
+Avg of best max until 50.00: 1.02404, std: 0.01101
+Avg of best max until 50.00: 1.02 (0.01)
+Avg number of final function evaluations: 50.00
+Avg best maximum: 1.02 (0.01)
+
