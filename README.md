@@ -2,19 +2,12 @@
 
 This repository implements **Every Call is Precious (ECP)** algorithm for solving non-convex (black-box) global optimization problems, with unkown Lipschitz constants, as introduced in our AISTATS paper. 
 
-![plot](figures/surface_plot.png)
+<img src="figures/surface_plot.png" width="800" height="300"/>
+
 
 ## Getting Started
 
 Follow the instructions below to run the ECP algorithm and reproduce the results in our paper.
-
-### Prerequisites
-
-Ensure you have the necessary dependencies installed. You can install them using pip by running:
-
-```bash
-pip install -r requirements.txt
-```
 
 ### Running the Algorithm
 You can run the ECP algorithm with the following command:
@@ -48,9 +41,14 @@ After the optimization run completes, the results will be saved in the results/ 
 ### Citation
 If you use this code in your research, please cite the following paper:
 
-@inproceedings{fourati2025ecp,
+```
+@InProceedings{fourati2025ecp,
   title={Every Call is Precious: Global Optimization of Black-Box Functions with Unknown Lipschitz Constants},
   author={Fares Fourati, Salma Kharrat, Vaneet Aggarwal, Mohamed-Slim Alouini},
-  booktitle={Proceedings of AISTATS},
+  booktitle={Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
   year={2025},
+  series ={Proceedings of Machine Learning Research},
+  publisher={PMLR},
 }
+```
+
