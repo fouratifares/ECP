@@ -4,7 +4,7 @@ This repository implements **Every Call is Precious (ECP)** algorithm for solvin
 
 <img src="figures/surface_plot.png" width="800" height="300"/>
 
-## Highlight
+## Highlights
 
 ECP is a global optimization algorithm for maximization that **minimizes unpromising evaluations** by concentrating on potentially optimal regions. It eliminates the need for estimating the Lipschitz constant, thus avoiding unnecessary evaluations. 
 
