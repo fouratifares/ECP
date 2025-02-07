@@ -1,13 +1,13 @@
-# ECP Algorithm for Global Optimization
+# ECP Algorithm for Global Optimization of Black-Box Functions
 
-This repository implements **Every Call is Precious (ECP)** algorithm for solving non-convex (black-box) global optimization problems, with unkown Lipschitz constants, as introduced in our AISTATS paper. 
+This repository implements **Every Call is Precious (ECP)** algorithm for solving non-convex (black-box) global optimization problems, with unkown Lipschitz constants, as introduced in [Every Call is Precious: Global Optimization of Black-Box Functions with Unknown Lipschitz Constants](https://arxiv.org/abs/2502.04290v1). 
 
 <img src="figures/surface_plot.png" width="800" height="300"/>
 
 
 ## Getting Started
 
-Follow the instructions below to run the ECP algorithm and reproduce the results in our paper.
+Follow the instructions below to run the ECP algorithm and reproduce the results in the paper.
 
 ### Running the Algorithm
 You can run the ECP algorithm with the following command:
