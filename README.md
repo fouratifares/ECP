@@ -8,7 +8,7 @@ This repository implements **ECP** algorithm for solving non-convex black-box gl
 
 ECP is a global optimization algorithm for maximization that **minimizes unpromising evaluations** by concentrating on potentially optimal regions. It eliminates the need for estimating the Lipschitz constant, thus avoiding unnecessary evaluations. 
 
-ECP guarantees no-regret performance with infinite evaluation budgets and achieves **minimax-optimal** regret within finite budgets. 
+ECP guarantees no-regret performance and achieves **minimax-optimal** regret within finite budgets. 
 
 Empirical results show that ECP **outperforms 10 benchmark algorithms** including Lipschitz, Bayesian, bandits, and evolutionary methods across **30 multi-dimensional optimization problems**, which are available under ```functions/```.
 
