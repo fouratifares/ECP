@@ -1,3 +1,10 @@
+"""
+Repository: https://github.com/fouratifares/ECP
+Paper: https://arxiv.org/pdf/2502.04290v1
+Please cite this work if you use this code in your work.
+ECP algorithm for global optimization (Every Call is Precious)
+"""
+
 from collections import deque
 from utils.utils import *
 import numpy as np
