@@ -67,7 +67,31 @@ After the optimization run completes, the results will be saved in the ```result
 
 ```optimizers/``` Includes implementation of the ECP algorithm
 
-### Citation
+## Implement Custom Objective Function
+
+The Function class defines the structure for a callable function that evaluates a reward based on an input array. It is initialized with bounds and dimensions, and it ensures that the input provided meets the expected dimensionality.
+
+```bash
+class Function:
+
+    def __init__(self) -> None:
+        # Initialize bounds and dimensions for the function.
+        self.bounds = ...  # Define the bounds of the function's domain
+        self.dimensions = ...  # Define the dimensionality of the input space
+
+    def __call__(self, x: np.ndarray = None) -> float:
+        # Ensure input is a numpy array and has the correct number of dimensions
+        if x is not None:
+            if len(x) != self.dimensions:
+                raise ValueError(f"Input must have {self.dimensions} dimensions.")
+        
+        # Evaluate the function and return a reward (or some output value)
+        reward = ...  # Your function's logic to calculate reward
+
+        return reward
+```
+
+## Citation
 If you use this code in your research, please cite the following paper:
 
 ```
