@@ -12,11 +12,28 @@ ECP guarantees no-regret performance and achieves **minimax-optimal** regret wit
 
 Empirical results show that ECP **outperforms 10 benchmark algorithms** including Lipschitz, Bayesian, bandits, and evolutionary methods across **30 multi-dimensional optimization problems**, which are available under ```functions/```.
 
+## Quick Tutorials with Google Colab
+
+The following tutorials are available as Jupyter notebooks and can be opened directly in Google Colab for an interactive experience:
+
+1. [Tutorial 1: ECP for Global Optimization of the Available Functions](https://colab.research.google.com/github/fouratifares/ECP/blob/main/notebooks/Tutorial_1_ECP_for_Global_Optimization_of_Available_Functions.ipynb)
+
+2. [Tutorial 2: ECP for Global Optimization of a Custom Function](https://colab.research.google.com/github/fouratifares/ECP/blob/main/notebooks/Tutorial_2_ECP_for_Global_Optimization_of_Custom_Function.ipynb)
+
+3. [Tutorial 3: ECP for Hyperparameter Optimization (HPO)](https://colab.research.google.com/github/fouratifares/ECP/blob/main/notebooks/Tutorial_3_ECP_for_Hyperparameter_Optimization.ipynb)
+
+
 ## Getting Started
 
 Follow the instructions below to run the ECP algorithm and reproduce the results in [the paper](https://arxiv.org/pdf/2502.04290v1).
 
-### Running the Algorithm
+#### Install
+
+```bash
+git clone https://github.com/fouratifares/ECP.git
+```
+
+#### Running the Algorithm
 
 You can run the ECP algorithm with the following command:
 
@@ -34,7 +51,7 @@ python main.py --function <path_to_function_class> -n <num_function_evaluations>
 
 ```-o <optimization_method>```: Specifies the optimization method to use. For this implementation, set this argument to ECP.
 
-### Example Usage
+#### Example Usage
 
 To run the ECP algorithm on the Ackley function with 50 function evaluations and 100 repetitions, use:
 
@@ -42,7 +59,7 @@ To run the ECP algorithm on the Ackley function with 50 function evaluations and
 python main.py --function ackley -n 50 -r 100 -o ECP
 ```
 
-### Outputs and Directories
+#### Outputs and Directories
 
 After the optimization run completes, the results will be saved in the ```results/``` directory in a file named results_ECP.txt. 
 
@@ -50,7 +67,31 @@ After the optimization run completes, the results will be saved in the ```result
 
 ```optimizers/``` Includes implementation of the ECP algorithm
 
-### Citation
+## Implement Custom Objective Function
+
+The Function class defines the structure for a callable function that evaluates a reward based on an input array. It is initialized with bounds and dimensions, and it ensures that the input provided meets the expected dimensionality.
+
+```bash
+class Function:
+
+    def __init__(self) -> None:
+        # Initialize bounds and dimensions for the function.
+        self.bounds = ...  # Define the bounds of the function's domain
+        self.dimensions = ...  # Define the dimensionality of the input space
+
+    def __call__(self, x: np.ndarray = None) -> float:
+        # Ensure input is a numpy array and has the correct number of dimensions
+        if x is not None:
+            if len(x) != self.dimensions:
+                raise ValueError(f"Input must have {self.dimensions} dimensions.")
+        
+        # Evaluate the function and return a reward (or some output value)
+        reward = ...  # Your function's logic to calculate reward
+
+        return reward
+```
+
+## Citation
 If you use this code in your research, please cite the following paper:
 
 ```
