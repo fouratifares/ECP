@@ -22,6 +22,7 @@ The following tutorials are available as Jupyter notebooks and can be opened dir
 
 3. [Tutorial 3: ECP for Hyperparameter Optimization (HPO)](https://colab.research.google.com/github/fouratifares/ECP/blob/main/notebooks/Tutorial_3_ECP_for_Hyperparameter_Optimization.ipynb)
 
+4. [Tutorial 4: ECP for Global Optimization of a Discrete Function](https://colab.research.google.com/github/fouratifares/ECP/blob/main/notebooks/Tutorial_4_ECP_for_Global_Optimization_of_a_Discrete_Function.ipynb)
 
 ## Getting Started
 
