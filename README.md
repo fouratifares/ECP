@@ -22,6 +22,7 @@ The following tutorials are available as Jupyter notebooks and can be opened dir
 
 3. [Tutorial 3: ECP for Hyperparameter Optimization (HPO)](https://colab.research.google.com/github/fouratifares/ECP/blob/main/notebooks/Tutorial_3_ECP_for_Hyperparameter_Optimization.ipynb)
 
+4. [Tutorial 4: ECP for Global Optimization of a Discrete Function](https://colab.research.google.com/github/fouratifares/ECP/blob/main/notebooks/Tutorial_4_ECP_for_Global_Optimization_of_a_Discrete_Function.ipynb)
 
 ## Getting Started
 
@@ -95,13 +96,18 @@ class Function:
 If you use this code in your research, please cite the following paper:
 
 ```
-@InProceedings{fourati2025ecp,
-  title={Every Call is Precious: Global Optimization of Black-Box Functions with Unknown Lipschitz Constants},
-  author={Fares Fourati, Salma Kharrat, Vaneet Aggarwal, Mohamed-Slim Alouini},
-  booktitle={Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
-  year={2025},
-  series ={Proceedings of Machine Learning Research},
-  publisher={PMLR},
+@InProceedings{fourati25ecp,
+  title = 	 {Every Call is Precious: Global Optimization of Black-Box Functions with Unknown Lipschitz Constants},
+  author =       {Fourati, Fares and Kharrat, Salma and Aggarwal, Vaneet and Alouini, Mohamed-Slim},
+  booktitle = 	 {Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {5176--5184},
+  year = 	 {2025},
+  volume = 	 {258},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {03--05 May},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v258/main/assets/fourati25a/fourati25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v258/fourati25a.html},
 }
 ```
 
