@@ -46,8 +46,14 @@ class FixedProjection:
 
 
 def ECPv2(f, n: int,
-          epsilon=1e-2, tau_=1.001, c=1e3,
-          m=10, delta=0.667, beta=0, projection_dim='auto', lower_bound_epsilon=True,
+          epsilon=1e-2,
+          tau_=1.001,
+          c=1e3,
+          m=int(100),  # m >= n for exact maximization
+          delta=0,  # 0.667
+          beta=5,
+          projection_dim='auto',
+          lower_bound_epsilon=True,
           verbose=False):
     """
     f: The class of the function to be maximized (class)
