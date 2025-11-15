@@ -3,6 +3,7 @@ import random
 import sys
 import numpy as np
 from optimizers.ECP import ECP
+from optimizers.ECPv2 import ECPv2
 from utils.runs import cli, directories, runs, convert_to_function
 
 # Adding the path for additional functions

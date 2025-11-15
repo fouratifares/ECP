@@ -3,6 +3,7 @@ import os
 import numpy as np
 import time
 from optimizers.ECP import ECP
+from optimizers.ECPv2 import ECPv2
 
 
 def convert_to_function(name):
