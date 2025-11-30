@@ -93,7 +93,7 @@ class Function:
 ```
 
 ## Citation
-If you use this code in your research, please cite the following paper:
+If you use this code in your research, please cite the following papers:
 
 ```
 @InProceedings{fourati25ecp,
@@ -110,4 +110,11 @@ If you use this code in your research, please cite the following paper:
   url = 	 {https://proceedings.mlr.press/v258/fourati25a.html},
 }
 ```
-
+```
+@article{fourati2025ecpv2,
+  title={ECPv2: Fast, Efficient, and Scalable Global Optimization of Lipschitz Functions},
+  author={Fourati, Fares and Alouini, Mohamed-Slim and Aggarwal, Vaneet},
+  journal={arXiv preprint arXiv:2511.16575},
+  year={2025}
+}
+```
