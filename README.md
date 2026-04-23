@@ -120,6 +120,7 @@ If you use this code in your research, please cite the following papers:
   journal={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2026},
   month={Mar.},
-  pages={36909-36918} }
+  pages={36909-36918},
   url={https://ojs.aaai.org/index.php/AAAI/article/view/41018},
+}
 ```
