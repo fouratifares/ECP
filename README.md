@@ -111,10 +111,15 @@ If you use this code in your research, please cite the following papers:
 }
 ```
 ```
-@article{fourati2025ecpv2,
+@article{fourati26ecpv2,
   title={ECPv2: Fast, Efficient, and Scalable Global Optimization of Lipschitz Functions},
   author={Fourati, Fares and Alouini, Mohamed-Slim and Aggarwal, Vaneet},
-  journal={arXiv preprint arXiv:2511.16575},
-  year={2025}
-}
+  volume={40},
+  DOI={10.1609/aaai.v40i43.41018},
+  number={43},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2026},
+  month={Mar.},
+  pages={36909-36918} }
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/41018},
 ```
